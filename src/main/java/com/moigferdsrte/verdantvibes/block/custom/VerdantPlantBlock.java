@@ -1,5 +1,6 @@
 package com.moigferdsrte.verdantvibes.block.custom;
 
+import com.moigferdsrte.verdantvibes.mixin.StateDefinitionAccessor;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -88,7 +89,10 @@ public class VerdantPlantBlock extends BushBlock implements BonemealableBlock, S
     @Override
     protected void createBlockStateDefinition(StateDefinition.@NonNull Builder<Block, BlockState> builder) {
         super.createBlockStateDefinition(builder);
-        builder.add(FACING, WATERLOGGED);
+        builder.add(FACING);
+        if (builder instanceof StateDefinitionAccessor accessor && !accessor.verdantVibes$properties().containsKey(WATERLOGGED.getName())) {
+            builder.add(WATERLOGGED);
+        }
     }
 
     @Override
