@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "verdantvibes:snake_plant",
+          "properties": {
+            "facing": "north"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:snake_plant",
+          "properties": {
+            "facing": "south"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:snake_plant",
+          "properties": {
+            "facing": "east"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:snake_plant",
+          "properties": {
+            "facing": "west"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

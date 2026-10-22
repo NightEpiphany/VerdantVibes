@@ -23,6 +23,35 @@
           "absolute": 250
         }
       }
+    },
+    {
+      "type": "minecraft:count",
+      "count": 80
+    },
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -6,
+        "max_inclusive": 6
+      },
+      "y": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -5,
+        "max_inclusive": 5
+      },
+      "z": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -6,
+        "max_inclusive": 6
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      }
     }
   ]
 }

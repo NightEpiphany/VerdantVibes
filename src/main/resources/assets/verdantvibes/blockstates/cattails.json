@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "half=upper": [
+      {
+        "model": "verdantvibes:block/cattails_top"
+      },
+      {
+        "model": "verdantvibes:block/cattails_taller"
+      }
+    ],
+    "half=lower": [
+      {
+        "model": "verdantvibes:block/cattails_bottom"
+      }
+    ]
+  }
+}

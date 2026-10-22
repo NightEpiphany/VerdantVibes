@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "verdantvibes:burnweed",
+          "properties": {
+            "size": "0",
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:burnweed",
+          "properties": {
+            "size": "1",
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:burnweed",
+          "properties": {
+            "size": "2",
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

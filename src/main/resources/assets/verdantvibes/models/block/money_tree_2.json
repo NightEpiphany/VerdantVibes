@@ -3,7 +3,8 @@
 	"ambientocclusion": false,
 	"render_type": "cutout",
 	"textures": {
-		"1": "verdantvibes:block/money_tree_tintable"
+		"1": "verdantvibes:block/money_tree_tintable",
+		"particle": "verdantvibes:block/money_tree"
 	},
 	"elements": [
 		{

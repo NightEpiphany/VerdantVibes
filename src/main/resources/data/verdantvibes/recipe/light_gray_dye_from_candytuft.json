@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "blue_dye",
+  "ingredients": [
+    "verdantvibes:candy_tuft"
+  ],
+  "result": {
+    "id": "minecraft:light_gray_dye"
+  }
+}

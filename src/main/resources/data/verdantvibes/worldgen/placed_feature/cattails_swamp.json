@@ -1,0 +1,67 @@
+{
+  "feature": "verdantvibes:cattails_swamp",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 14
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 4
+    },
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -2,
+        "max_inclusive": 2
+      },
+      "y": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -1,
+        "max_inclusive": 1
+      },
+      "z": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -2,
+        "max_inclusive": 2
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": "minecraft:water"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": "minecraft:air"
+          }
+        ]
+      }
+    }
+  ]
+}

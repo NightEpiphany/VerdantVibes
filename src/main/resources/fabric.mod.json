@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "verdantvibes",
+	"version": "${version}",
+	"name": "Verdant Vibes",
+	"description": "Add more plants that beautify the world.",
+	"authors": [
+		"NightEpiphany", "Pandarix"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/verdantvibes-unofficial-port",
+		"sources": "https://github.com/NightEpiphany/VerdantVibes"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.moigferdsrte.verdantvibes.VerdantVibes"
+		],
+		"client": [
+			"com.moigferdsrte.verdantvibes.VerdantVibesClient"
+		]
+	},
+	"mixins": [
+		"verdantvibes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

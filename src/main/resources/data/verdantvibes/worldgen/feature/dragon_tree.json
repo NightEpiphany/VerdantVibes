@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "verdantvibes:dragon_tree",
+          "properties": {
+            "facing": "north"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:dragon_tree",
+          "properties": {
+            "facing": "south"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:dragon_tree",
+          "properties": {
+            "facing": "east"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:dragon_tree",
+          "properties": {
+            "facing": "west"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:tall_dragon_tree",
+          "properties": {
+            "facing": "north",
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:tall_dragon_tree",
+          "properties": {
+            "facing": "south",
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:tall_dragon_tree",
+          "properties": {
+            "facing": "east",
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "verdantvibes:tall_dragon_tree",
+          "properties": {
+            "facing": "west",
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}
